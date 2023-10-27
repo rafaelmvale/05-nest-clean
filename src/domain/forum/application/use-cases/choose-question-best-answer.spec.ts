@@ -5,7 +5,7 @@ import { ChooseQuestionBestAnswerUseCase } from './choose-question-best-answer'
 import { makeQuestion } from '../../enterprise/entities/factories/make-question'
 import { makeAnswer } from '../../enterprise/entities/factories/make-answer'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
-import { NotAllowedError } from './errors/not-allowed-error'
+import { NotAllowedError } from '../../../../core/errors/errors/not-allowed-error'
 import { QuestionAttachmentsRepository } from '../repositories/question-attachments-repository'
 import { AnswerAttachmentsRepository } from '../repositories/answer-attachments-repository'
 
