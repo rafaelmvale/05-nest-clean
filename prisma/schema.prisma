@@ -41,6 +41,7 @@ model Question {
 
   author      User         @relation(fields: [authorId], references: [id])
   bestAnswer  Answer?      @relation("bestAnswer", fields: [bestAnswerId], references: [id])
+  
   answers     Answer[]
   comments    Comment[]
   attachments Attachment[]
